@@ -1,0 +1,57 @@
+* {  
+    box-sizing: border-box; /* 确保所有元素都遵循边框盒模型 */  
+}  
+
+html, body {  
+    height: 100%; /* 设置全高，使背景能够覆盖整个页面 */  
+    margin: 0; /* 去掉默认的外边距 */  
+    display: flex;  
+    flex-direction: column; /* 使内容垂直排列 */  
+}  
+
+body {  
+    font-family: Arial, sans-serif;  
+    background-image: url('alxy.jpg'); /* 添加背景图片 */  
+    background-size: cover; /* 确保背景图像覆盖整个页面 */  
+    background-position: center; /* 持背景图像居中 */  
+    background-repeat: no-repeat; /* 防止背景图像重复 */  
+    color: #fff; /* 设置默认文本颜色为白色 */  
+    flex: 1; /* 使页面主体内容占满剩余空间 */  
+}  
+
+header {  
+    background: rgba(53, 66, 74, 0.5); /* 半透明背景颜色，用以提升可读性 */  
+    color: #ffffff;  
+    padding: 10px 0;  
+    text-align: center;  
+}  
+
+nav ul {  
+    list-style-type: none;  
+    padding: 0;  
+}  
+
+nav ul li {  
+    display: inline;  
+    margin: 0 10px;  
+}  
+
+nav ul li a {  
+    color: #ffffff;  
+    text-decoration: none;  
+}  
+
+main {  
+    background: rgba(255, 255, 255, 0.2); /* 半透明的白色背景 */  
+    padding: 20px;  
+    margin-top: 20px;  
+    border-radius: 5px;  
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);  
+    flex: 1; /* 使主体内容也可以占满剩余空间 */  
+}  
+
+footer {  
+    text-align: center;  
+    margin-top: 20px;  
+    font-size: 0.8em;  
+}
